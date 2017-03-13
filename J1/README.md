@@ -25,16 +25,18 @@
     https://github.com/a0viedo/demystifying-js-engines
     http://developer.telerik.com/featured/a-guide-to-javascript-engines-for-idiots/
 
-  | Browser, Headless Browser, or Runtime	JavaScript | Engine |
-  |---|---:
-  |  Mozilla |  Spidermonkey |
-  |  Chrome |  V8 |
-  |  IE and Edge |  Chakra |
-  |  Safari |  JavaScriptCore (Nitro) |
-  |  Node.js |  V8 |
 
-- javascript versions (es5, es6, ...)
-  - https://developer.mozilla.org/fr/docs/Web/JavaScript
+Browser, Headless Browser, or Runtime JavaScript | Engine
+---|---:
+Mozilla | Spidermonkey
+Chrome | V8
+IE and Edge | Chakra
+Safari | JavaScriptCore (Nitro)
+Node.js | V8
+  
+
+### javascript versions (es5, es6, ...)
+     https://developer.mozilla.org/fr/docs/Web/JavaScript
 
 ### Les navigateurs et les servers :
 - server / browser / domains (cors)
