@@ -14,27 +14,24 @@
 
 ## Le fonctionnement des navigateurs :
 
-### markup
+### HTML markup
      https://developer.mozilla.org/fr/docs/Web/HTML [FR]
-### D.O.M (accès par javascript)
+### Browser D.O.M (accès par javascript)
      https://developer.mozilla.org/fr/docs/Web/API/Document_Object_Model
-### Rendering
+### Browser Rendering
     https://developers.google.com/web/fundamentals/performance/rendering/
 
-### javascript engines
-   https://en.wikipedia.org/wiki/List_of_ECMAScript_engines
-
+### Javascript engines
+    https://github.com/a0viedo/demystifying-js-engines
+    http://developer.telerik.com/featured/a-guide-to-javascript-engines-for-idiots/
 
   | Browser, Headless Browser, or Runtime	JavaScript | Engine |
-  |---|---|
+  |---|---:
   |  Mozilla |  Spidermonkey |
   |  Chrome |  V8 |
   |  IE and Edge |  Chakra |
   |  Safari |  JavaScriptCore (Nitro) |
   |  Node.js |  V8 |
-
-
-
 
 - javascript versions (es5, es6, ...)
   - https://developer.mozilla.org/fr/docs/Web/JavaScript
