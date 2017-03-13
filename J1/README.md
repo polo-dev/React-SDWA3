@@ -33,33 +33,80 @@ Chrome | V8
 IE and Edge | Chakra
 Safari | JavaScriptCore (Nitro)
 Node.js | V8
-  
+
 
 ### javascript versions (es5, es6, ...)
      https://developer.mozilla.org/fr/docs/Web/JavaScript
+     https://kangax.github.io/compat-table/es6/
+     https://johnpapa.net/es5-es2015-typescript/
 
-### Les navigateurs et les servers :
-- server / browser / domains (cors)
-- templating (browser responsability / server responsability)
-- API vs Server rendering
+  * es2015, es2016, es2017
+    * babel tranpiler :
 
-### Les web applications :
-- single page application
-- MVC, MVVM...
+    https://babeljs.io/docs/plugins/preset-latest/
+    https://github.com/babel/babel-loader
+
+## Les navigateurs et les servers :
+
+### server / browser request
+
+  * browser page request
+  * browser image request
+  * browser API request
+  * ...
+
+### domains et security
+
+  * Request headers
+  * Response headers
+  * cors
+  * ...
+
+### templating
+
+  * browser responsability
+  * server responsability
+  * Futur : more and more browser responsability
+  * la mode : serverless
+  * la mode : chatbot => templating == 0
+
+### API vs Server rendering
+
+## Les web applications :
+
+  * single page application : WTF ?
 
 ### Les frameworks & libraires JS sur le marché actuellement :
-- ReactJS, AngularJS, VueJS
-- virtual dom VS dirty checking
-- strict unidirectional data flow (one way binding) VS two way binding
+- ReactJS, AngularJS, VueJS ... (emberjs...)
+- Les points essentiels :
+  - virtual dom (shallow rendering) VS dirty checking
+  - strict unidirectional data flow (one way binding) VS two way binding
 
-### Development workflow :
-- editor : (atom / sublimetext, webstorm) : jsx emmet, babel language syntax colorization, ternjs
-- Best practices / conventions / linter (eslint) / editorconfig
-- debugging / logging / chrome dev tools + react dev tools + redux dev tools
+## Development workflow :
+
+### editor : (atom / sublimetext, webstorm)
+
+  - jsx
+  - emmet,
+  - babel
+  - language syntax colorization, ternjs
+
+### Best practices / conventions
+
+  - linter (eslint)
+  - editorconfig
+  - TRAVAILLER EN EQUIPE
+
+### debugging / logging
+
+  - chrome dev tools
+  - react dev tools
+  - redux dev tools
 
 ### React development stack :
+
 - webpack / webpack-dev-server : Mega-power bundler
-- babel : es2015 / 2017 (future of web browser)
+- babel : es2015 / 2017 (future of web browser) => babel-preset-env
 - react : the view part (virtualdom  / one way binding)
 - redux / react-redux : the model part (functional reactive programming)
 
@@ -71,6 +118,21 @@ Node.js | V8
 - https://github.com/brillout/awesome-react-components
 - https://github.com/xgrommx/awesome-redux
 
-### Let's step into :
+# Let's step into :
+
+## Check list
+
+- nvm ?
+- node version : node -v
+- npm i -g eslint
+
+## First react application
+
 - npm install create-react-app -g
+- cd your-projects-folder
+- create-react-app my-first-project
 - Your first web app / Your first component
+
+## Check list atom :
+
+- cf. Packages list
