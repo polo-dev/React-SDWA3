@@ -137,6 +137,7 @@ Node.js | V8
 
 - cf. Packages list
 
-* Romain Valin
-* Basile ![Basile Photo](https://avatars2.githubusercontent.com/u/15260538?v=3&u=e98797e3016b0afe6141e51a8af3c967e016824b&s=400)
+Romain Valin
+Basile ![Basile Photo](https://avatars2.githubusercontent.com/u/15260538?v=3&u=e98797e3016b0afe6141e51a8af3c967e016824b&s=400)
 
+Paul Reinhardt https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/10494889_10203418881611834_148925699178724527_o.jpg?oh=15fac3ca2158add9029d31dace57049e&oe=592B4698
