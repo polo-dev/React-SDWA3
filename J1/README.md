@@ -136,3 +136,5 @@ Node.js | V8
 ## Check list atom :
 
 - cf. Packages list
+
+Romain Valin
